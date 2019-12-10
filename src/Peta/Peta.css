@@ -1,0 +1,14 @@
+#markerMain {
+	font-size: 30px;
+	color: #007bff;
+}
+i.fas.fa-shuttle-van.markerAngkots {
+    color: #007bff;
+    font-size: 25px;
+}
+.sidebarStyle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}

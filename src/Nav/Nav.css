@@ -1,0 +1,58 @@
+#cardNav {
+	max-width: 18rem;
+	position: fixed;
+	top: 1rem;
+	left: 1rem;
+	z-index: 1;
+	background:	rgb(255, 255, 255);
+	border: none;
+}
+#titleWeb {
+	font-size: 26px;
+}
+.listAngkot {
+	margin: 0;
+    padding: 5px;
+    text-align: left;
+    text-transform: capitalize;
+}
+h4.title.namaNav {
+    font-size: 16px;
+    font-weight: normal;
+	font-style: italic;
+}
+h5.description.jalanNav {
+    font-size: 15px;
+    font-weight: lighter;
+}
+.profilNav {
+	display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.profilNav .img.rounded {
+	align-items: center;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+.profilNav .img.rounded img {
+	width: inherit;
+    height: 100%;
+}
+.profilNav h5 {
+	font-weight: normal;
+    margin: 0;
+    display: block;
+    margin-left: 5px;
+    font-size: inherit;
+}
+.Infromasi {
+	text-align: left;
+}
+.hideData {
+    display: none;
+}
