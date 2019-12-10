@@ -43,7 +43,7 @@ export default class Jemput extends Component {
                 console.log(position.coords.longitude);			
 			})
 		}
-		axios.get("http://localhost:3001/penumpang/" + String(this.state.latitude) + "/" + String(this.state.longitude) + "/" + String(this.state.profil) + "/" + String(this.state.token))	
+		axios.get("https://saverel.herokuapp.com/penumpang/" + String(this.state.latitude) + "/" + String(this.state.longitude) + "/" + String(this.state.profil) + "/" + String(this.state.token))	
 			.then((response) => {
 				console.log("sukses1");
 			})
@@ -54,7 +54,7 @@ export default class Jemput extends Component {
 	}
 
 	clickNaik = () => {
-        axios.get("http://localhost:3001/update/penumpang/naik/" + String(this.state.token))
+        axios.get("https://saverel.herokuapp.com/update/penumpang/naik/" + String(this.state.token))
         .then( (response) => {
             console.log(response);
             this.setState({
@@ -70,7 +70,7 @@ export default class Jemput extends Component {
     }
 
     clickTurun = () => {
-        axios.get("http://localhost:3001/update/penumpang/turun/" + String(this.state.token))
+        axios.get("https://saverel.herokuapp.com/update/penumpang/turun/" + String(this.state.token))
         .then( (response) => {
             console.log(response);
             this.setState({

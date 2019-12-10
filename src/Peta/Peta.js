@@ -33,7 +33,7 @@ export default class Peta extends Component {
                 );
                 console.log(position.coords.latitude);
                 console.log(position.coords.longitude);
-                axios.get("http://localhost:3001/angkot/all")
+                axios.get("https://saverel.herokuapp.com/angkot/all")
 			        .then( (response) => {
 			          	console.log("4");
 			            this.setState({ angkot: response.data });
