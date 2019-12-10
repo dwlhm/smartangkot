@@ -19,7 +19,6 @@ export default class Peta extends Component {
 					angkot: null,
 					error: 'null'
 				}
-		
 	}
 
 	componentDidMount() {
