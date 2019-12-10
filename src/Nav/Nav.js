@@ -31,7 +31,7 @@ export default class Nav extends Component {
 					<div className="card-body">
 						<nav className="nav flex-column nav-pills nav-fill">
 							<Link className="nav-link" to="/"><h1 className="card-title" id="titleWeb">Smart Angkot</h1></Link>
-							<Link className={`nav-link active ${this.props.dataJemput}`} to={`/jemput/lsg/${this.state.latitude}/${this.state.longitude}}/null/Dwi%20Ilham/${String(randToken.generate(16))}}`}>Jemput Saya</Link>
+							<Link className={`nav-link active ${this.props.dataJemput}`} to={`/jemput/${this.state.latitude}/${this.state.longitude}/Dwi%20Ilham/${String(randToken.generate(16))}`}>Jemput Saya</Link>
 							<Link className={`nav-link active ${this.props.dataKembali}`} to="/">Kembali</Link>
 							<Link className="nav-link" to="/profil">
 								<div className="profilNav">

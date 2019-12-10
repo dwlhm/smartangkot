@@ -14,7 +14,7 @@ function App() {
     		<Route exact path="/" component={Peta} />
             	<Route path="/profil/" component={Akun} />
             	<Route path="/lapor/" component={Informasi} />
-            	<Route path="/jemput/:metode/:latitude/:longitude/:angkotId/:nama/:token" component={Jemput} />
+            	<Route path="/jemput/:latitude/:longitude/:nama/:token" component={Jemput} />
      	</Router>
     </div>
   );

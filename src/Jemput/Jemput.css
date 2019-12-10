@@ -1,0 +1,11 @@
+.cardJemput {
+	float: right;
+    width: 78%;
+    margin: 30px;
+}
+.tabelProfil th {
+    width: 150px;
+}
+.hidden {
+	display: none;
+}
